@@ -1,4 +1,5 @@
 Package.describe({
+    name: "appmill:animation-hooks",
     summary: "Helpers for animation hooks, including SVG",
     version: "0.1.1",
     git: "https://github.com/strack/meteor-animation-hooks.git"
