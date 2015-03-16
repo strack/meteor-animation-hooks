@@ -13,7 +13,7 @@ https://github.com/frozeman/meteor-animation-helper
 Installation
 ============
 
-    $ meteor add strack:animation-hooks
+    $ meteor add appmill:animation-hooks
 
 Usage
 =====
