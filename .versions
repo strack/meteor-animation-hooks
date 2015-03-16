@@ -1,5 +1,5 @@
 application-configuration@1.0.4
-appmill:animation-hooks@0.1.1
+appmill:animation-hooks@0.1.2
 base64@1.0.2
 binary-heap@1.0.2
 blaze@2.0.4
@@ -16,7 +16,7 @@ htmljs@1.0.3
 id-map@1.0.2
 jquery@1.11.3
 json@1.0.2
-local-test:appmill:animation-hooks@0.1.1
+local-test:appmill:animation-hooks@0.1.2
 logging@1.0.6
 meteor@1.1.4
 minifiers@1.1.3
