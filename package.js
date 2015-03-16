@@ -18,6 +18,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
     api.use('tinytest');
-    api.use('animation-hooks', 'client');
+    api.use('appmill:animation-hooks', 'client');
     api.addFiles('animation-hooks-tests.js', 'client');
 });
