@@ -1,7 +1,7 @@
 Package.describe({
     summary: "Helpers for animation hooks, including SVG",
-    version: "0.1.0",
-    git: ""
+    version: "0.1.1",
+    git: "https://github.com/strack/meteor-animation-hooks.git"
 });
 
 Package.onUse(function (api) {
@@ -11,12 +11,12 @@ Package.onUse(function (api) {
     api.use('templating', 'client');
     api.use('jquery','client');
     api.addFiles('svgClass.js', 'client');
-    api.addFiles('strack:animation-hooks.html', 'client');
-    api.addFiles('strack:animation-hooks.js', 'client');
+    api.addFiles('animation-hooks.html', 'client');
+    api.addFiles('animation-hooks.js', 'client');
 });
 
 Package.onTest(function (api) {
     api.use('tinytest');
-    api.use('strack:animation-hooks', 'client');
-    api.addFiles('strack:animation-hooks-tests.js', 'client');
+    api.use('animation-hooks', 'client');
+    api.addFiles('animation-hooks-tests.js', 'client');
 });
